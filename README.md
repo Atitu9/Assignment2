@@ -5,9 +5,8 @@ Group: IT-2501
 Course: Web Technologies(Front-end)
 
 ## Description
-In this assignment I built several tasks using CSS Flexbox and CSS Grid layouts
+In this assignment I built several tasks using CSS Flexbox and CSS Grid layouts and use them to make my web page
 
-## Tasks Overview
 
 ### Part 1. Flexbox
 - Task 0. Navigation Bar: Created a header with logo on the left and links on the right using flexbox
