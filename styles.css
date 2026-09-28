@@ -107,14 +107,6 @@ body {
   padding: 15px;
 }
 
-.sidebar {
-  grid-area: sidebar;
-  background-color: #34495e;
-  color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
 .main-content {
   grid-area: main;
   background-color: #ffffff;
@@ -132,12 +124,6 @@ body {
   border-radius: 8px;
   text-align: center;
 }
-body {
-  font-family: sans-serif;
-  background-color: #121212;
-  padding: 40px 20px;
-}
-
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -183,51 +169,17 @@ body {
   transform: scale(1.08); 
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f9;
-  color: #333;
-}
 .portfolio-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1e293b;
-  padding: 18px 40px;
-  color: #fff;
-}
-
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.nav {
-  display: flex;
-  gap: 24px; 
-}
-
-.nav a {
-  color: #e2e8f0;
-  text-decoration: none;
-  font-size: 15px;
-  transition: color 0.2s;
-}
-
-.nav a:hover {
-  color: #38bdf8;
 }
 
 .main-wrapper {
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: 30px;
+  align-items: start;
   max-width: 1200px;
   width: 100%;
   margin: 40px auto;
@@ -318,7 +270,6 @@ body {
 .skills li {
   margin-bottom: 6px;
 }
-
 .footer {
   background-color: #1e293b;
   color: #94a3b8;
