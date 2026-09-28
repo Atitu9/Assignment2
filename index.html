@@ -4,196 +4,157 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Advanced CSS Assignment</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="page-shell">
-    <header class="top-nav" aria-label="Main navigation">
-      <div class="logo">
-        <span class="logo-mark">A</span>
-        <span>AstanaIT</span>
-      </div>
-      <nav class="nav-links" aria-label="Navigation links">
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Projects</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
+  <header class="header">
+    <a href="#" class="logo">My Logo</a>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="cards-container">
+  <article class="card">
+    <img src="https://edisonstudio.ru/upload/medialibrary/71d/ES_dlya-stati_2_CHto-takoe-veb_razrabotka.png" alt="Photo" class="card-image">
+    <div class="card-body">
+      <h3 class="card-title">Веб-разработка</h3>
+      <p class="card-text">Изучите основы HTML, CSS и JavaScript для создания современных адаптивных веб-сайтов.</p>
+      <button class="card-button">Подробнее</button>
+    </div>
+  </article>
 
-    <section class="task-block">
-      <h2>Part 1. Flexbox</h2>
+  <article class="card">
+    <img src="https://wezom.com.ua/storage/blog/inner/MWdEiH90oIIkd9GLlgqTZ2vVJKsq82N11Oq60JMS.jpg?v=1702847398" alt="Превью карточки" class="card-image">
+    <div class="card-body">
+      <h3 class="card-title">UI/UX Дизайн</h3>
+      <p class="card-text">Проектирование удобных и эстетичных пользовательских интерфейсов с нуля.</p>
+      <button class="card-button">Подробнее</button>
+    </div>
+  </article>
 
-      <div class="task-box">
-        <h3>Task 0. Navigation Bar</h3>
-        <nav class="nav-bar" aria-label="Task navigation">
-          <div class="logo small-logo">
-            <span class="logo-mark">A</span>
-            <span>Logo</span>
+  <article class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPPJjx2ZKyAFb8mgmj7iLVBw8afAXjF33oBm8xTc1ivU5p__8zTUONNlo&s=10" alt="Превью карточки" class="card-image">
+    <div class="card-body">
+      <h3 class="card-title">Маркетинг</h3>
+      <p class="card-text">Стратегии продвижения продуктов в цифровой среде и привлечение целевой аудитории.</p>
+      <button class="card-button">Подробнее</button>
+    </div>
+  </article>
+</div>
+<div class="page-container">
+  <header class="header">Header (Шапка)</header>
+  <aside class="sidebar">Sidebar (Боковая панель)</aside>
+  <main class="main-content">Main Content (Основной контент)</main>
+  <footer class="footer">Footer (Подвал)</footer>
+</div>
+<div class="gallery-container">
+
+  <figure class="gallery-item">
+    <img src="https://site-s3.mkskom.ru/mkskom-site/chto_takoe_web_razrabotka_b9f4e4b7bf.jpg" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-1</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQVN1XIESH7Xrm3NY_p4mNrNr-U1pSTHc4QvZR7pus4vhIJxAUtg1Gc_D&s=10" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-2</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://cmsmagazine.ru/UserFiles/01(11).jpg" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-3</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://avatars.mds.yandex.net/i?id=08cdb3a9347e2e5b7a491e75e5a2520670d0e58c-5859964-images-thumbs&n=13" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-4</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://avatars.mds.yandex.net/i?id=094a4edd813284c4c7ae39252fb8b065dc86677f-5193708-images-thumbs&n=13" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-5</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://thb.tildacdn.com/tild6564-3864-4632-b732-626364303030/-/resize/504x/pexels-tranmautritam.jpg" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-6</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxh-wQvGGVo6syQEZajqGsipIK_h0U79thQlRwsWeRW2AmWUU9eGKxMXX&s=10" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-7</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://victoryagency.ru/wp-content/uploads/2026/07/polnyy-razbor-didjital-kanala-1-800x450.webp" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-8</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqXuAb_N6EXOZh5OzzqVz-yOCDNeojEJWBKwoICyvYGRxvlSHhjlxN3M&s=10" alt="Photo" class="gallery-image">
+    <figcaption class="gallery-caption">Test-9</figcaption>
+  </figure>
+</div>
+<div class="portfolio-container">
+  <header class="header">
+    <div class="logo">MyPortfolio</div>
+    <nav class="nav">
+     <a href="#">Главная</a>
+     <a href="#">Проекты</a>
+     <a href="#">Обо мне</a>
+     <a href="#">Контакты</a>
+    </nav>
+  </header>
+  <div class="main-wrapper">
+    <main class="projects-area">
+      <h2>Мои Проекты</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-content">
+           <h3 class="card-title">Интернет-магазин</h3>
+           <p class="card-description">Полнофункциональный веб-сайт с корзиной, фильтрацией товаров и интеграцией онлайн-оплаты</p>
+           <button class="card-btn">Смотреть проект</button>
           </div>
-          <div class="nav-menu" aria-label="Menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Team</a>
-            <a href="#">Blog</a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-content">
+           <h3 class="card-title">Мобильное приложение</h3>
+           <p class="card-description"> Кроссплатформенное приложение для трекинга привычек и планирования задач</p>
+           <button class="card-btn">Смотреть проект</button>
           </div>
-        </nav>
-      </div>
+        </article>
 
-      <div class="task-box">
-        <h3>Task 1. Card Row</h3>
-        <div class="card-row">
-          <article class="card">
-            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Modern office" />
-            <div class="card-content">
-              <h4>Creative Design</h4>
-              <p>Build modern and clean interfaces that feel easy to use and pleasant to explore.</p>
-              <button>Read More</button>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Team discussion" />
-            <div class="card-content">
-              <h4>Team Strategy</h4>
-              <p>Plan better projects with clear communication, collaboration, and strong teamwork.</p>
-              <button>Explore</button>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Code on screen" />
-            <div class="card-content">
-              <h4>Web Development</h4>
-              <p>Create responsive experiences using clean code and smart layout techniques.</p>
-              <button>Learn More</button>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="task-block">
-      <h2>Part 2. Grid System</h2>
-
-      <div class="task-box">
-        <h3>Task 2. Page Layout with Grid Areas</h3>
-        <div class="page-grid-demo" aria-label="Grid demo page layout">
-          <header class="grid-header">Header</header>
-          <aside class="grid-sidebar">Sidebar</aside>
-          <main class="grid-main">Main Content</main>
-          <footer class="grid-footer">Footer</footer>
-        </div>
-      </div>
-
-      <div class="task-box">
-        <h3>Task 3. Image Gallery</h3>
-        <div class="gallery" aria-label="Image gallery">
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Forest lake" />
-            <figcaption>Forest</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80" alt="Mountain view" />
-            <figcaption>Mountain</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Nature trail" />
-            <figcaption>Trail</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Ocean beach" />
-            <figcaption>Ocean</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Snowy lake" />
-            <figcaption>Snow</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Lake and mountain" />
-            <figcaption>Lake</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80" alt="Desert landscape" />
-            <figcaption>Desert</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=900&q=80" alt="Waterfall" />
-            <figcaption>Waterfall</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80" alt="Forest in autumn" />
-            <figcaption>Autumn</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="task-block">
-      <h2>Part 3. Combining Flexbox & Grid</h2>
-
-      <div class="portfolio-demo" aria-label="Portfolio page layout example">
-        <header class="portfolio-header">
-          <div class="logo small-logo">
-            <span class="logo-mark">A</span>
-            <span>Studio</span>
+        <article class="project-card">
+          <div class="card-content">
+           <h3 class="card-title">Панель управления (Dashboard)</h3>
+           <p class="card-description"> Интерактивный веб-интерфейс аналитики с графиками и статистикой продаж</p>
+           <button class="card-btn">Смотреть проект</button>
           </div>
-          <nav class="portfolio-nav" aria-label="Portfolio navigation">
-            <a href="#">Work</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-          </nav>
-        </header>
-
-        <main class="portfolio-main">
-          <section class="projects-panel">
-            <h3>Projects</h3>
-            <div class="project-card">
-              <div class="project-text">
-                <h4>Business Website</h4>
-                <p>Designed a modern landing page for a startup company.</p>
-              </div>
-              <button>View Project</button>
-            </div>
-
-            <div class="project-card">
-              <div class="project-text">
-                <h4>Mobile App UI</h4>
-                <p>Created a clean app design for a travel and booking service.</p>
-              </div>
-              <button>See Details</button>
-            </div>
-
-            <div class="project-card">
-              <div class="project-text">
-                <h4>E-Commerce Design</h4>
-                <p>Improved the product display and checkout experience.</p>
-              </div>
-              <button>Open Case</button>
-            </div>
-          </section>
-
-          <aside class="info-panel">
-            <h3>Profile</h3>
-            <p>Front-end developer focused on modern, responsive user experiences.</p>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Flexbox</li>
-              <li>Grid</li>
-            </ul>
-          </aside>
-        </main>
-
-        <footer class="portfolio-footer">Footer</footer>
+        </article>
       </div>
-    </section>
+    </main>
+    <aside class="sidebar">
+      <h3>Обо мне</h3>
+      <p>Frontend-разработчик. Создаю современные и удобные веб-интерфейсы с помощью HTML, CSS, JavaScript и React</p>
+      <div class="skills">
+        <h4>Навыки:</h4>
+        <ul>
+         <li>HTML5 / CSS3</li>
+         <li>Flexbox / Grid</li>
+         <li>JavaScript (ES6+)</li>
+         <li>Git / GitHub</li>
+        </ul>
+      </div>
+    </aside>
   </div>
+  <footer class="footer">
+    <p> 2026 MyPortfolio</p>
+  </footer>
+</div>
 </body>
 </html>
